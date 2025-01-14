@@ -4,9 +4,6 @@ This project demonstrates a stream2ing pipeline for processing weather data. It 
 a
 data deserialization mechanism to process weather information in real time.
 
-This project demonstrates how to build a pipeline that integrates Kafka and Flink for real-time data streaming and
-processing.
-
 ## Components
 
 1. Producer ([producer.py](kafka-producer/producer.py)):
@@ -50,11 +47,11 @@ processing.
 
 ## How to Run?
 
-### Start Kafka:
+### 1. Start Kafka:
 
 - Ensure `Kafka` is running locally on `localhost:9092`.
 
-### Run the Producer:
+### 2. Run the Producer:
 
 - Start the producer script to generate weather data:
 
@@ -66,7 +63,7 @@ Run the Flink Job:
 
 Execute the `Main` class in your IDE.
 
-### Observe Results:
+### 3. Observe Results:
 
 - The Flink console should display deserialized weather data in real time.
 
